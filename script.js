@@ -24,7 +24,7 @@ if(check.checked)
 }
 	else{
 		localStorage.removeItem("data");
-		alert(`credentials are not stored`);
+		//alert(`credentials are not stored`);
 	}
 })
 exist_btn.addEventListener("click",display)
